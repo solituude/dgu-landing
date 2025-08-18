@@ -3,9 +3,9 @@ export const Footer = () => {
     return(
         <footer className={s.Footer}>
             <div className={s.Footer__CompanyInfo}>
-                <span className={s.Footer__Subtext}>ООО "Название"</span>
-                <span className={s.Footer__Subtext}>ИНН - 00000000</span>
-                <span className={s.Footer__Subtext}>ОГРН - 0000000000000</span>
+                <span className={s.Footer__Subtext}>ООО "РИСЭГ"</span>
+                <span className={s.Footer__Subtext}>ИНН - 6376031392</span>
+                <span className={s.Footer__Subtext}>ОГРН - 1246300030074</span>
             </div>
             <span className={s.Footer__Subtext}>
                 Проект создан при поддержке Федерального государственного бюджетного учреждения

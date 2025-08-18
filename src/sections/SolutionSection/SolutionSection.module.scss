@@ -6,7 +6,9 @@
   position: relative;
   padding: 80px 20px;
   gap: 78px;
-
+  background-image: url("/SolutionImage.png");
+  background-size: cover;
+  background-position: center;
   &__H2{
     @extend .H2;
   }

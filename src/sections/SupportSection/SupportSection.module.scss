@@ -8,4 +8,19 @@
   align-self: stretch;
 
   background: white;
+
+  &__Icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 44px;
+
+    //@media (min-width: 768px) {
+    //  flex-direction: row;
+    //}
+  }
+
 }

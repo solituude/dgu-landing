@@ -1,14 +1,13 @@
 import Image from "next/image";
 
-import {ADVANTAGES} from "@/lib";
+import {SOLUTIONS} from "@/lib/constants";
 
 import s from './SolutionSection.module.scss';
-import {SOLUTIONS} from "@/lib/constants";
 
 export const SolutionSection = () => {
     return(
         <section className={s.SolutionSection}>
-            <Image className={s.SolutionSection__Image} src={'/SolutionImage.png'} alt={'solution-image'} fill/>
+            {/*<Image className={s.SolutionSection__Image} src={'/SolutionImage.png'} alt={'solution-image'} fill/>*/}
             <h2 className={s.SolutionSection__H2}>
                 Разрабатываемый контроллер "КУ-1" - решение актуальных проблем резервной энергетики
             </h2>

@@ -3,8 +3,7 @@
 .HeroSection {
   display: flex;
   position: relative;
-  //width: 100%;
-  //margin-top: -10px;
+
   background-image: url("/HeroImage1440.png");
   background-size: cover;
   background-position: center;
@@ -25,6 +24,10 @@
   &__Info {
     display: flex;
     flex-direction: column;
+
+    width: 100%;
+
+    box-sizing: border-box;
     padding: 80px 20px;
     gap: 20px;
     @media (min-width: 1024px) {
@@ -51,11 +54,15 @@
   &__H1 {
     color: #FFF;
     font-family: Jura, sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin: 0;
+
+    @media(min-width: 576px) {
+      font-size: 48px;
+    }
 
     @media (min-width: 1440px) {
       font-size: 3.33rem;

@@ -10,7 +10,10 @@ export const AdvantagesSection = () => {
     return(
         <section className={s.AdvantagesSection}>
             <h2 className={s.AdvantagesSection__H2}>Преимущества нашей системы</h2>
-            {ADVANTAGES.map((ad => <LightCard key={ad.id + ad.title} id={ad.id} description={ad.description} title={ad.title} />))}
+            <div className={s.AdvantagesSection__Cards}>
+                {ADVANTAGES.map((ad => <LightCard key={ad.id + ad.title} id={ad.id} description={ad.description} title={ad.title} />))}
+            </div>
+
         </section>
     )
 }
