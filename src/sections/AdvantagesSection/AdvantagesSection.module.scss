@@ -1,0 +1,14 @@
+@use 'src/styles/global' as *;
+.AdvantagesSection {
+  display: flex;
+  padding: 48px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+  background: #242A38;
+
+  &__H2 {
+    @extend .H2
+  }
+}

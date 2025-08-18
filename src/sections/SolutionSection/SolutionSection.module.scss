@@ -1,0 +1,27 @@
+@use "src/styles/global" as *;
+
+.SolutionSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 80px 20px;
+  gap: 78px;
+
+  &__H2{
+    @extend .H2;
+  }
+
+  &__Advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+
+  &__Text {
+    @extend .Text;
+  }
+
+  &__Image {
+    z-index: -1;
+  }
+}

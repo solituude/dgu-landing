@@ -1,0 +1,25 @@
+.H2 {
+  color: #FFF;
+  font-family: Jura, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media (min-width: 1440px) {
+    font-size: 2.08rem;
+  }
+}
+
+.Text {
+  color: #FFF;
+  font-family: Jura, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  @media (min-width: 1440px) {
+    font-size: 1.39rem;
+  }
+}

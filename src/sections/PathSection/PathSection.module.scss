@@ -1,0 +1,15 @@
+@use "src/styles/global" as *;
+.PathSection {
+  display: flex;
+  height: 820px;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 95px;
+  align-self: stretch;
+  background: linear-gradient(180deg, #F77F61 -19.21%, #242A38 100%);
+
+  &__H2{
+    @extend .H2;
+  }
+}

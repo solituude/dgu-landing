@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: #242A38;
+  box-sizing: border-box;
+  
+  @media (min-width: 1024px) {
+    padding: 0 100px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 0 6.94rem;
+    height: 5.56rem;
+  }
+}
+
+.Header__Logo {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
