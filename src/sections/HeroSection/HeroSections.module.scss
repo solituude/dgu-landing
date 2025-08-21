@@ -3,20 +3,23 @@
 .HeroSection {
   display: flex;
   position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+
+  height: calc(100vh - 90px);
+
+  box-sizing: border-box;
+  gap: 40px;
 
   background-image: url("/HeroImage1440.png");
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 90px);
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  flex-shrink: 0;
-  box-sizing: border-box;
 
   @media (min-width: 1440px) {
     height: calc(100vh - 6.25rem);
+
     gap: 2.78rem;
   }
 
@@ -30,12 +33,14 @@
     box-sizing: border-box;
     padding: 80px 20px;
     gap: 20px;
+
     @media (min-width: 1024px) {
       width: 61.25vw;
       margin-left: 78px;
       padding-top: 116px;
       gap: 40px;
     }
+
     @media (min-width: 1440px) {
       width: 61.25rem;
       margin-left: 5.42rem;

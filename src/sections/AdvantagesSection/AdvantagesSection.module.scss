@@ -8,6 +8,11 @@
   align-self: stretch;
   background: #242A38;
 
+  @media (min-width: 1440px) {
+    padding: 3.33rem 1.39rem;
+    gap: 3.33rem;
+  }
+
   &__H2 {
     @extend .H2
   }
@@ -17,5 +22,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 26px;
+
+    @media (min-width: 1440px) {
+      gap: 1.81rem;
+    }
   }
 }

@@ -9,6 +9,14 @@
   align-self: stretch;
   background: linear-gradient(180deg, #F77F61 -19.21%, #242A38 100%);
 
+  @media (min-width: 1440px) {
+    height: 56.94rem;
+
+    padding: 2.78rem 1.39rem;
+
+    gap: 6.59rem;
+  }
+
   &__H2{
     @extend .H2;
   }

@@ -1,6 +1,7 @@
-import s from './Header.module.scss';
 import {Button} from "@/components/Button/Button";
 
+
+import s from './Header.module.scss';
 
 export const Header = () => {
     return(

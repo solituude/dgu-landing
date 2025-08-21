@@ -22,5 +22,12 @@
   height: 80px;
   padding: 10px;
   box-sizing: border-box;
+
+  @media (min-width: 1440px) {
+    width: 5.55rem;
+    height: 5.55rem;
+
+    padding: 0.69rem;
+  }
 }
 

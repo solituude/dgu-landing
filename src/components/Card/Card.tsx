@@ -1,4 +1,5 @@
 import {ICard} from "@/lib";
+
 import s from './Card.module.scss';
 
 export const Card = (card: ICard) => {

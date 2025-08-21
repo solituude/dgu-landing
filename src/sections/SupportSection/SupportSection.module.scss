@@ -9,6 +9,12 @@
 
   background: white;
 
+  @media (min-width: 1440px) {
+    padding: 2.78rem 3.33rem;
+    gap: 3.05rem;
+
+  }
+
   &__Icons {
     display: flex;
     flex-direction: row;
@@ -18,9 +24,51 @@
 
     gap: 44px;
 
-    //@media (min-width: 768px) {
-    //  flex-direction: row;
-    //}
+    @media (min-width: 1440px) {
+      gap: 3.05rem;
+    }
+  }
+
+}
+
+.Icon {
+  &_Fond {
+    display: flex;
+    width: 225px;
+    height: 125px;
+    background-image: url("/Fond.png");
+    background-size: cover;
+
+    @media (min-width: 1440px) {
+      width: 15.625rem;
+      height: 8.68rem;
+    }
+  }
+
+  &_Energy {
+    display: flex;
+    width: 246px;
+    height: 89px;
+    background-image: url("/EnegroResource.png");
+    background-size: cover;
+
+    @media (min-width: 1440px) {
+      width: 17.08rem;
+      height: 6.18rem;
+    }
+  }
+
+  &_Polytech {
+    display: flex;
+    width: 235px;
+    height: 109px;
+    background-image: url("/Polytech.png");
+    background-size: cover;
+
+    @media (min-width: 1440px) {
+      width: 16.32rem;
+      height: 7.57rem;
+    }
   }
 
 }
