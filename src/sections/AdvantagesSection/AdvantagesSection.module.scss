@@ -6,7 +6,7 @@
   align-items: flex-start;
   gap: 48px;
   align-self: stretch;
-  background: #242A38;
+  background: var(--color-bg-elevated);
 
   @media (min-width: 1440px) {
     padding: 3.33rem 1.39rem;

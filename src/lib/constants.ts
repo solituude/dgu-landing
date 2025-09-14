@@ -1,4 +1,4 @@
-import {ICard} from "@/lib/types";
+import {ICard, IStage} from "@/lib/types";
 
 export const CARDS: ICard[] = [
     {id: 1, title: "Автоматизация контроля", description: "Управление запуском и остановом, минимизация риска ошибок"},
@@ -18,4 +18,12 @@ export const ADVANTAGES: ICard[] = [
     {id: 2, title: "Расширенное управление", description: "Наличие конфигурируемых алгоритмов управления"},
     {id: 3, title: "Современные интерфейсы", description: "Реализация поддержки систем жизнеобеспечения"},
     {id: 4, title: "Умная стабилизация", description: "Достигается за счет регулятора мощности на основе нечеткой логики"}
+]
+
+export const STAGES: IStage[] = [
+    { id: 1, title: 'Возникновение идеи', status: 'done' },
+    { id: 2, title: 'Анализ и сбор информации', status: 'done' },
+    { id: 3, title: 'Создание лабораторного образца', status: 'done' },
+    { id: 4, title: 'Тестирование и анализ образца', status: 'done' },
+    { id: 5, title: 'Экспериментальный образец', status: 'current' },
 ]

@@ -1,13 +1,16 @@
 import s from './SupportSection.module.scss';
+import {Reveal} from "@/components/Reveal/Reveal";
 
 export const SupportSection = () => {
     return(
-        <section className={s.SupportSection}>
-            <h2>Нас поддерживают</h2>
+        <section id="support" className={s.SupportSection}>
+            <Reveal>
+                <h2 className={s.SupportSection__H2}>Нас поддерживают</h2>
+            </Reveal>
             <div className={s.SupportSection__Icons}>
-                <div className={s.Icon_Fond}/>
-                <div className={s.Icon_Energy}/>
-                <div className={s.Icon_Polytech}/>
+                <Reveal><div className={s.Icon_Fond}/></Reveal>
+                <Reveal><div className={s.Icon_Energy}/></Reveal>
+                <Reveal><div className={s.Icon_Polytech}/></Reveal>
             </div>
         </section>
     )

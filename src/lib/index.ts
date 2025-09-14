@@ -1,2 +1,2 @@
-export type {ICard} from './types';
-export {ADVANTAGES} from './constants';
+export type {ICard, IStage} from './types';
+export {ADVANTAGES, STAGES} from './constants';

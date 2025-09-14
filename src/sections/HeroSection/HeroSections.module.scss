@@ -13,7 +13,7 @@
   box-sizing: border-box;
   gap: 40px;
 
-  background-image: url("/HeroImage1440.png");
+  background-image: url("/image.png");
   background-size: cover;
   background-position: center;
 
@@ -57,7 +57,7 @@
   }
 
   &__H1 {
-    color: #FFF;
+    color: var(--color-text-primary);
     font-family: Jura, sans-serif;
     font-size: 36px;
     font-style: normal;
@@ -76,5 +76,6 @@
 
   &__Span {
     @extend .Text;
+    color: var(--color-text-secondary);
   }
 }

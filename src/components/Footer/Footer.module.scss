@@ -5,7 +5,7 @@
   align-items: center;
   gap: 26px;
   align-self: stretch;
-  background: #242A38;
+  background: var(--color-bg-elevated);
 
   @media (min-width: 1440px) {
     padding: 2.78rem 1.39rem;
@@ -27,7 +27,7 @@
   }
 
   &__Subtext {
-    color: #969292;
+    color: var(--color-text-secondary);
     text-align: center;
     font-family: Jura, sans-serif;
     font-size: 18px;

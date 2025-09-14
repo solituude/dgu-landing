@@ -1,10 +1,16 @@
+"use client";
+
 import {Button} from "@/components/Button/Button";
+import {useEffect, useState} from "react";
 
 import s from './HeroSections.module.scss';
 
 export const HeroSections = () => {
+    const [isMounted, setIsMounted] = useState(false);
+    useEffect(() => setIsMounted(true), []);
+
     return (
-        <section className={s.HeroSection}>
+        <section id="hero" className={`${s.HeroSection} ${isMounted ? 'fade-in' : ''}`}>
             <div className={s.HeroSection__Info}>
                 <h1 className={s.HeroSection__H1}>Умное управление <br/> дизель-генераторными установками</h1>
 

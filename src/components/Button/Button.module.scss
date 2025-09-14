@@ -6,8 +6,23 @@
   width: fit-content;
   padding: 0 10px;
   border-radius: 20px;
-  background: linear-gradient(90deg, #F88161 0%, #F65063 100%);
+  background: var(--gradient-brand);
   border: none;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-brand-strong);
+    filter: brightness(1.05);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-brand-weak);
+    filter: brightness(0.98);
+  }
 
   @media(min-width: 1440px) {
     height: 4.72rem;
@@ -17,7 +32,7 @@
 }
 
 .Button__Text {
-  color: #FFFBEC;
+  color: var(--color-text-primary);
   text-align: center;
   font-family: Jura, sans-serif;
   font-size: 16px;
