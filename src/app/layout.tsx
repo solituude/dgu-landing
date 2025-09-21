@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "ДГУ",
+    title: "РИСЭГ-интеллектуальные решения в энергетике",
     description: "",
 };
 import { Jura } from 'next/font/google';
